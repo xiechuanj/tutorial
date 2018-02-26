@@ -134,3 +134,5 @@ REST_FRAMEWORK = {
         'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
     )
 }
+
+ALLOWED_HOSTS = ['*']
